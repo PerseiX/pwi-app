@@ -1,0 +1,61 @@
+.header {
+  top: 0;
+  display: block;
+  min-height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #313131;
+  text-decoration: none;
+
+  .navigation {
+    height: 50px;
+    ul {
+      margin: 0;
+      height: 100%;
+      padding: 0;
+      list-style: none;
+      display: inline-flex;
+
+      a {
+        line-height: 50px;
+        color: white;
+        padding: 0 20px 0 20px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        height: 100%;
+        font-size: 22px;
+
+        &:hover {
+          color: #dbdbdb;
+          background-color: #414141;
+        }
+      }
+      li {
+        position: relative;
+      }
+    }
+  }
+  .language-switcher {
+    line-height: 50px;
+    button {
+      padding: 0;
+      color: white;
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.navigation li:not(:last-of-type):after {
+  z-index: 100;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  width: 1px;
+  right: 0;
+  background-color: white;
+  height: 50%;
+}

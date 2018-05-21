@@ -1,0 +1,24 @@
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <nav class="navigation col-9">
+                <ul>
+                    <li>
+                        <a routerLink="/about" routerLinkActive="active"> About</a>
+                    </li>
+                    <li>
+                        <a routerLink="/contact" routerLinkActive="active"> Contact</a>
+                    </li>
+                    <li>
+                        <a routerLink="/gallery" routerLinkActive="active"> Gallery</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language-switcher  col-3">
+                <button (click)="switchLanguage('pl')">PL&nbsp;</button>
+                <button (click)="switchLanguage('en')">EN</button>
+            </div>
+        </div>
+    </div>
+
+</header>
