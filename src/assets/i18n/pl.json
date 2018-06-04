@@ -1,3 +1,79 @@
 {
-  "title": "PL title"
+  "header": {
+    "about": "O nas",
+    "contact": "Kontakt",
+    "gallery": "Galeria"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "city": "Warszawa",
+    "content": "PL Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, debitis deleniti dolore eos fuga iusto maiores minima molestiae neque obcaecati, officiis omnis optio perferendis quae ratione temporaunde vero.",
+    "title": "Dowiedz się więcej"
+  },
+  "contact": {
+    "submit": "Wyślij",
+    "title": "Skontaktuj się z nami",
+    "enterEmail": "Wprowadź poprawny email"
+  },
+  "gallery": {
+    "seeMore": "Zobacz więcej",
+    "items": [
+      {
+        "img": "./../../assets/img/article-photo.jpeg",
+        "alt": "Gallery 1",
+        "title": "Niezwykły tytuł",
+        "content": "PL Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Jan Kowalski",
+        "date": "2017-10-10"
+      },
+      {
+        "img": "./../../assets/img/photo.jpeg",
+        "alt": "Gallery 2",
+        "title": "Bardzo ciekawe wydarzenie",
+        "content": "PL Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Adas Kowalski",
+        "date": "2017-10-10"
+      },
+      {
+        "img": "./../../assets/img/photo2.jpeg",
+        "alt": "Gallery 3",
+        "title": "Wydarzenie które zminiło świat",
+        "content": "PL Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Jan Kowalski",
+        "date": "2017-10-10"
+      },
+      {
+        "img": "./../../assets/img/photo3.jpeg",
+        "alt": "Gallery 4",
+        "title": "Tytuł przedziwny",
+        "content": "PL Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Jan Kowalski",
+        "date": "2017-10-10"
+      }
+    ]
+  },
+  "about": {
+    "image": "./../../assets/img/article-photo.jpeg",
+    "alt": "About image",
+    "ticks": [
+      {
+        "content": "Odmieniamy świat"
+      },
+      {
+        "content": "Jesteśmy blisko Was"
+      },
+      {
+        "content": "Zawsze wtedy gdy coś potrzebujesz"
+      },
+      {
+        "content": "Zawsze niezawodni"
+      },
+      {
+        "content": "Obdarzeni zaufaniem przez setki ludzi"
+      },
+      {
+        "content": "Dołącz do Nas"
+      }
+    ]
+  }
 }

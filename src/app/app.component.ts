@@ -1,6 +1,5 @@
+import {LanguageSwitcher} from './services/language.switcher';
 import {Component} from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
-import {ActivatedRoute} from '@angular/router';
 
 @Component({
     selector: 'app-root',
@@ -8,8 +7,4 @@ import {ActivatedRoute} from '@angular/router';
     styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent {
-    // TranslateService: translate;
-
-
-}
+export class AppComponent {}

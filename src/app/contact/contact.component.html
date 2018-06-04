@@ -1,3 +1,24 @@
-<p>
-  contact works!
-</p>
+<section class="contact__section">
+    <div class="row main__content">
+        <div class="col-xl-7 contact__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d27684.88635266447!2d21.058273511711953!3d52.17030510384009!3m2!1i1024!2i768!4f13.1!2m1!1sNowoursynowska+161%2C+Warszawa!5e0!3m2!1spl!2spl!4v1527089123767"
+                    width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-xl-5 contact__place">
+            <h2>{{"contact.title"|translate}}</h2>
+            <form class="contact__form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                           placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">{{"contact.enterEmail"|translate}}
+                    </small>
+                </div>
+                <div class="form-group">
+                    <textarea  title="tmp" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="contact__button">{{"contact.submit"|translate}}</button>
+            </form>
+
+        </div>
+    </div>
+</section>

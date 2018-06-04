@@ -1,0 +1,48 @@
+.article-section {
+  .row .more-button {
+    padding: 0 0 0 10px;
+    color: black;
+  }
+
+  .more-button {
+    a {
+      color: #232323;
+      text-decoration: none;
+      font-style: italic;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .my-card {
+    img {
+      padding-top: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+  }
+
+  .my-card .material-icons {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+  .row .my-card p {
+    padding: 0 20px 30px 20px;
+    font-size: 18px;
+    text-align: center;
+
+  }
+  .card-wrap {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+  }
+}

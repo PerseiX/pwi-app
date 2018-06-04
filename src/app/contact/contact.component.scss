@@ -1,0 +1,44 @@
+.contact__section {
+  .main__content {
+    padding: 40px 10px 40px 10px;
+  }
+
+  .contact__form {
+    margin-top: 50px;
+
+    input {
+      border-radius: 0;
+    }
+  }
+  .contact__button {
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 4px;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .contact__place {
+    margin-top: 50px;
+  }
+
+  .contact__map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

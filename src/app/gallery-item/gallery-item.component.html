@@ -1,0 +1,15 @@
+<section class="gallery-item">
+    <div class="row author">
+        <span> {{gallery.getAuthor()}}, {{gallery.getDate()}}</span>
+    </div>
+    <hr>
+    <div class="row">
+        <img class="col-lg-6 img__block img-responsive" src="{{gallery.getImg()}}" alt="{{gallery.getAlt()}}">
+        <div class="col-lg-6 content__gallery-block">
+            <h1> {{gallery.getTitle()}}</h1>
+            <p>
+                {{gallery.getContent()}}
+            </p>
+        </div>
+    </div>
+</section>

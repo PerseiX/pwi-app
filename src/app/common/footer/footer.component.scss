@@ -1,0 +1,36 @@
+@import '../../../sass/mixins';
+
+.footer__section {
+  padding: 20px;
+  width: 100%;
+  background-color: #313131;
+  min-height: 300px;
+  color: white;
+
+  .container {
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .left__block {
+    padding: 10px;
+    @media(min-width: 768px) {
+      &:after {
+        @include pipe-after(100%);
+      }
+    }
+  }
+  .right__block {
+    padding: 10px;
+    span {
+      display: block;
+      padding: 5px;
+    }
+  }
+
+  .copyright__section {
+    text-align: center;
+    display: block;
+    padding: 20px;
+  }
+}

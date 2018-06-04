@@ -1,0 +1,94 @@
+@import '../../sass/mixins';
+
+.about__section {
+  width: inherit;
+  margin-top: 50px;
+
+  .image__block {
+    position: fixed;
+    z-index: -1;
+    margin: 0 auto;
+    opacity: .3;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .banner__section {
+    margin: 0 auto;
+    height: 100vh;
+    & a {
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      width: 100px;
+      height: 40px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-top: 250px;
+      font-weight: 600;
+      border: 2px solid gray;
+    }
+  }
+
+  .image__title {
+    position: absolute;
+    color: black;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 400;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .about__block {
+
+    z-index: 1000;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .2);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+
+  .ticks__block {
+    margin-top: 30px;
+    span {
+      padding: 10px;
+      position: relative;
+      i {
+        height: inherit;
+        vertical-align: sub;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .icons__block {
+    i {
+      margin-top: 30px;
+      font-size: 80px;
+    }
+    span {
+      width: 100%;
+      display: block;
+    }
+
+    @media (min-width: 970px) {
+      &:after {
+        z-index: 100;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 30px;
+        bottom: 0;
+        width: 1px;
+        right: 0;
+        background-color: black;
+        height: 90%;
+      }
+    }
+  }
+}

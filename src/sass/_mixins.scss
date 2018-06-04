@@ -1,0 +1,12 @@
+@mixin pipe-after($height) {
+  z-index: 100;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  width: 1px;
+  right: 0;
+  background-color: white;
+  height: $height;
+}

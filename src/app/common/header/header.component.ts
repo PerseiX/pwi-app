@@ -1,21 +1,22 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import {GalleryFetcher} from '../../services/gallery.fetcher';
+import {LanguageSwitcher} from '../../services/language.switcher';
 
 @Component({
     selector: 'app-header',
     templateUrl: './header.component.html',
     styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
-
-
-    constructor(private translate: TranslateService) {
-        translate.setDefaultLang('pl');
+export class HeaderComponent {
+    constructor(private languageSwitcher: LanguageSwitcher) {
     }
 
     switchLanguage(language: string) {
-        console.log(language);
-        this.translate.use(language);
+        this.languageSwitcher.switchLanguage(language);
     }
 
+    getLanguage(){
+       return  this.languageSwitcher.getLanguage();
+    }
 }

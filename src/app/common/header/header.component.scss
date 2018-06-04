@@ -1,12 +1,22 @@
+@import '../../../sass/mixins';
+
+*:focus{
+  outline: none;
+}
+
 .header {
+  z-index: 1000;
+  outline: none;
   top: 0;
   display: block;
   min-height: 50px;
   width: 100%;
   position: fixed;
-  background-color: #313131;
+  background-color: #343a40;
   text-decoration: none;
-
+  #navbarSupportedContent {
+    background-color: #343a40;
+  }
   .navigation {
     height: 50px;
     ul {
@@ -36,26 +46,40 @@
       }
     }
   }
-  .language-switcher {
+  .switch__btn {
     line-height: 50px;
+
     button {
       padding: 0;
       color: white;
       border: none;
       background-color: transparent;
+
     }
+    @media (max-width: 970px) {
+      margin-left: 20px;
+    }
+  }
+
+  .first__btn {
+    @media (min-width: 970px) {
+      margin-left: 200px;
+    }
+  }
+
+  .navbar-toggler-icon {
+    color: white;
+  }
+
+  .active__language {
+    font-weight: 900;
   }
 }
 
-.navigation li:not(:last-of-type):after {
-  z-index: 100;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 10px;
-  bottom: 0;
-  width: 1px;
-  right: 0;
-  background-color: white;
-  height: 50%;
+.navigation .pipe:after {
+  @media (min-width: 970px) {
+    @include pipe-after(50%);
+  }
+
 }
+

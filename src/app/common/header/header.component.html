@@ -1,23 +1,45 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <nav class="navigation col-9">
-                <ul>
-                    <li>
-                        <a routerLink="/about" routerLinkActive="active"> About</a>
-                    </li>
-                    <li>
-                        <a routerLink="/contact" routerLinkActive="active"> Contact</a>
-                    </li>
-                    <li>
-                        <a routerLink="/gallery" routerLinkActive="active"> Gallery</a>
-                    </li>
-                </ul>
+            <nav class="navigation navbar navbar-expand-md navbar-dark bg-dark col-12">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+
+                <div class="collapse navbar-collapse col" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item pipe" >
+                            <a href="#" class="nav-link" routerLink="/about" routerLinkActive="active">
+                                {{'header.about'|translate}}
+                            </a>
+                        </li>
+                        <li class="nav-item pipe">
+                            <a class="nav-link" routerLink="/contact" routerLinkActive="active">
+                                {{'header.contact'|translate}}
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="/gallery" routerLinkActive="active">
+                                {{'header.gallery'|translate}}
+                            </a>
+                        </li>
+
+                        <li class="nav-item switch__btn first__btn ">
+                            <button [ngClass]="{'active__language': getLanguage()=='pl'}" class="nav-link"
+                                    (click)="switchLanguage('pl')">PL&nbsp;
+                            </button>
+                        </li>
+                        <li class="nav-item switch__btn">
+                            <button [ngClass]="{'active__language': getLanguage()=='en'}" class="nav-link"
+                                    (click)="switchLanguage('en')">EN
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-            <div class="language-switcher  col-3">
-                <button (click)="switchLanguage('pl')">PL&nbsp;</button>
-                <button (click)="switchLanguage('en')">EN</button>
-            </div>
+
         </div>
     </div>
 

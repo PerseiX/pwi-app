@@ -1,3 +1,14 @@
-<p>
-  gallery works!
-</p>
+<section class="article-section">
+    <div class="row">
+        <div *ngFor="let item of galleries; let i =index" class="my-card col-sm-6 col-md-4">
+            <div class="card-wrap">
+                <img src="{{item.getImg()}}" alt="{{item.getAlt()}}" >
+                <p> {{item.getTitle()}}</p>
+                <div class="more-button">
+                    <a [routerLink]="['/gallery', i]" routerLinkActive="active"> {{"gallery.seeMore"|translate}}</a>
+                    <i class="material-icons">arrow_forward</i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

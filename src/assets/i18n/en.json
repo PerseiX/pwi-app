@@ -1,3 +1,79 @@
 {
-  "title": "EN title"
+  "header": {
+    "about": "About",
+    "contact": "Contact",
+    "gallery": "Gallery"
+  },
+  "footer": {
+    "contact": "Contact",
+    "city": "Warsaw",
+    "content": "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, debitis deleniti dolore eos fuga iusto maiores minima molestiae neque obcaecati, officiis omnis optio perferendis quae ratione temporaunde vero.",
+    "title": "Lorem ipsum"
+  },
+  "contact": {
+    "submit": "Submit",
+    "title": "Contact with us",
+    "enterEmail": "Enter valid email"
+  },
+  "gallery": {
+    "seeMore": "See more",
+    "items": [
+      {
+        "img": "./../../assets/img/article-photo.jpeg",
+        "alt": "Gallery 1",
+        "title": "Awesome title",
+        "content": "EN Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Jan Kowalski",
+        "date": "2017-10-10"
+      },
+      {
+        "img": "./../../assets/img/photo.jpeg",
+        "alt": "Gallery 2",
+        "title": "Very interesting event",
+        "content": "EN Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Adas Kowalski",
+        "date": "2017-10-10"
+      },
+      {
+        "img": "./../../assets/img/photo2.jpeg",
+        "alt": "Gallery 3",
+        "title": "Event which change live",
+        "content": "EN Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Jan Kowalski",
+        "date": "2017-10-10"
+      },
+      {
+        "img": "./../../assets/img/photo3.jpeg",
+        "alt": "Gallery 4",
+        "title": "Strange title",
+        "content": "EN Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "author": "Jan Kowalski",
+        "date": "2017-10-10"
+      }
+    ]
+  },
+  "about": {
+    "image": "./../../assets/img/article-photo.jpeg",
+    "alt": "About image",
+    "ticks": [
+      {
+        "content": "We change world"
+      },
+      {
+        "content": "We are near"
+      },
+      {
+        "content": "Always thanks to something"
+      },
+      {
+        "content": "Always reliable"
+      },
+      {
+        "content": "Endowed with trust by hundreds of people"
+      },
+      {
+        "content": "Join to us"
+      }
+    ]
+  }
 }

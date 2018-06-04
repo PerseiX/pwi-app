@@ -1,3 +1,43 @@
-<p>
-  about works!
-</p>
+<section class="about__section">
+
+    <div class="row banner__section">
+        <h1 class="image__title">Awesome Page</h1>
+        <img src="{{'about.image'|translate}}" alt="{{'about.alt'|translate}}" class="img-responsive image__block">
+        <a routerLink="/gallery" routerLinkActive="active" class="btn btn-outline-secondary">
+            {{'header.gallery'|translate}}</a>
+    </div>
+    <div class="row about__block">
+        <div class="col-md-5 icons__block">
+            <div class="row">
+                <i class="col-sm-6 material-icons">
+                    card_giftcard
+                </i>
+                <i class="col-sm-6 material-icons">
+                    find_in_page
+                </i>
+                <i class="col-sm-6 material-icons">
+                    home
+                </i>
+                <i class="col-sm-6 material-icons">
+                    language
+                </i>
+                <i class="col-sm-6 material-icons">
+                    pageview
+                </i>
+                <i class="col-sm-6 material-icons">
+                    shop
+                </i>
+            </div>
+        </div>
+        <div class="col-md-7 ticks__block">
+            <div class="row">
+                <span class="col-12"><i class="material-icons">done</i>{{"about.ticks.0.content"|translate}}</span>
+                <span class="col-12"><i class="material-icons">done</i>{{"about.ticks.1.content"|translate}}</span>
+                <span class="col-12"><i class="material-icons">done</i>{{"about.ticks.2.content"|translate}}</span>
+                <span class="col-12"><i class="material-icons">done</i>{{"about.ticks.3.content"|translate}}</span>
+                <span class="col-12"><i class="material-icons">done</i>{{"about.ticks.4.content"|translate}}</span>
+                <span class="col-12"><i class="material-icons">done</i>{{"about.ticks.5.content"|translate}}</span>
+            </div>
+        </div>
+    </div>
+</section>

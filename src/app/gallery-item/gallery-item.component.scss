@@ -1,0 +1,18 @@
+.gallery-item {
+  padding: 10px;
+  margin-top: 70px;
+  .author {
+    padding-left: 10px;
+    font-size: 16px;
+    color: gray;
+  }
+  .img__block {
+    object-fit: scale-down;
+    object-position: top;
+  }
+
+  .content__gallery-block {
+    font-family: Arial;
+    font-size: 20px;
+  }
+}
