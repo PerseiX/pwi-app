@@ -14,5 +14,10 @@
   .content__gallery-block {
     font-family: Arial;
     font-size: 20px;
+
+    @media (max-width: 425px) {
+      margin-top: -150px;
+    }
   }
+
 }
